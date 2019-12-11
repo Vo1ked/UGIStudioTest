@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a9a868abd314c04aaacf39b8f21a730, type: 3}
+  m_Name: ClassicShip0
+  m_EditorClassIdentifier: 
+  name: ClassicShip
+  level: 1
+  speed: 10
+  heals: 100
+  slots:
+  - name: Slot
+    slotType: 0
+  - name: Slot
+    slotType: 0
+  nextLvl: {fileID: 11400000, guid: b7a4a6ba791dc1e41a3ce32d26a6557c, type: 2}
